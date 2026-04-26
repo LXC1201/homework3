@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+//注释
 // 检查是否登录
 if (!isset($_SESSION['user_id'])) {
     header('Location: index.html');
